@@ -2,7 +2,7 @@
 
 Next.js starter for creating a simple e-commerce website with Strapi.
 
-![screenshot image](/screenshot.png)
+![screenshot image](screenshot.png)
 
 This starter allows you to try Strapi with Next.js with the example of a simple e-commerce website where you can buy dev stickers. It is fully customizable and due to the fact that it is open source, fully open to contributions. So do not hesitate to add new features and report bugs!
 
