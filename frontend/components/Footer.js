@@ -12,7 +12,7 @@ const Footer = () => {
           <img src="/facebook.svg" alt="Facebook" />
         </a>
         <a
-          href="https://github.com/strapi/strapi-starter-next-e-commerce"
+          href="https://github.com/strapi/strapi-starter-next-ecommerce"
           className="ml-3"
         >
           <img src="/github.svg" alt="GitHub" />
