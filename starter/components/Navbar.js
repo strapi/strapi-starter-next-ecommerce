@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 
 const Navbar = () => {
   return (
@@ -19,7 +19,7 @@ const Navbar = () => {
         <span className="snipcart-total-price ml-3 font-semibold text-sm text-indigo-500"></span>
       </button>
     </div>
-  );
-};
+  )
+}
 
-export default Navbar;
+export default Navbar

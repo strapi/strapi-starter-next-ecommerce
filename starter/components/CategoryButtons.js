@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "next/link"
 
 const CategoryButtons = ({ categories = [] }) => {
   return (
@@ -11,7 +11,7 @@ const CategoryButtons = ({ categories = [] }) => {
         </Link>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default CategoryButtons;
+export default CategoryButtons

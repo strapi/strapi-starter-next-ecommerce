@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { getStrapiMedia } from "../utils/medias";
+import Link from "next/link"
+import { getStrapiMedia } from "../utils/medias"
 
 const ProductsList = ({ products }) => {
   return (
@@ -31,7 +31,7 @@ const ProductsList = ({ products }) => {
         </div>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default ProductsList;
+export default ProductsList
