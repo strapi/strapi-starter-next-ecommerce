@@ -1,4 +1,4 @@
-import NextImage from "./image"
+import NextImage from "./Image"
 import Link from "next/link"
 
 const ProductsList = ({ products }) => {
