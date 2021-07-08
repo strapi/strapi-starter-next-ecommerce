@@ -14,7 +14,10 @@ const MyApp = ({ Component, pageProps }) => {
           rel="stylesheet"
           href="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.css"
         />
-        <script src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js" />
+        <script
+          async
+          src="https://cdn.snipcart.com/themes/v3.0.16/default/snipcart.js"
+        />
       </Head>
       <Component {...pageProps} />
     </Layout>

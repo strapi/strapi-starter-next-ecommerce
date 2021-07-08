@@ -1,12 +1,14 @@
 import Head from "next/head"
 import { useRouter } from "next/router"
+
+import NextImage from "../../components/image"
 import { getProducts, getProduct } from "../../utils/api"
 import { getStrapiMedia } from "../../utils/medias"
 
 const ProductPage = ({ product }) => {
   const router = useRouter()
   if (router.isFallback) {
-    return <div>Loading category...</div>
+    return <div>Loading product...</div>
   }
 
   return (
@@ -14,12 +16,8 @@ const ProductPage = ({ product }) => {
       <Head>
         <title>{product.title} product</title>
       </Head>
-      <div className="rounded-t-lg pt-2 pb-2">
-        <img
-          src={getStrapiMedia(product.image.formats.thumbnail.url)}
-          className="m-auto"
-          alt={product.title}
-        />
+      <div className="rounded-t-lg pt-2 pb-2 m-auto h-40 w-40">
+        <NextImage media={product.image} />
       </div>
       <div className="w-full p-5 flex flex-col justify-between">
         <div>

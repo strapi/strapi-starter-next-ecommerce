@@ -15,7 +15,7 @@ const Layout = ({ children, categories }) => {
         hidden
         id="snipcart"
         data-api-key="ODhhNWUxOGEtNTk0OC00OTQwLWJkOWMtM2M1ZmNjODU1ZDJhNjM3MzMyNzM0NjM1OTMyNjcz"
-      ></div>
+      />
     </div>
   )
 }
