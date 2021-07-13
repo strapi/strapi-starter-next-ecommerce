@@ -1,3 +1,5 @@
+import NextImage from "./Image"
+
 const Footer = () => {
   return (
     <div className="flex justify-between m-6">
@@ -6,20 +8,25 @@ const Footer = () => {
       </p>
       <div className="flex gap-3 ml-4">
         <a href="https://twitter.com/strapijs" className="max-w-xs ml-4">
-          <img src="/twitter.svg" alt="Twitter" />
+          <NextImage src="/twitter.svg" width={20} height={20} alt="Twitter" />
         </a>
         <a href="https://facebook.com/strapijs" className="ml-3">
-          <img src="/facebook.svg" alt="Facebook" />
+          <NextImage
+            src="/facebook.svg"
+            width={20}
+            height={20}
+            alt="Facebook"
+          />
         </a>
         <a
           href="https://github.com/strapi/strapi-starter-next-ecommerce"
           className="ml-3"
         >
-          <img src="/github.svg" alt="GitHub" />
+          <NextImage src="/github.svg" width={20} height={20} alt="GitHub" />
         </a>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
