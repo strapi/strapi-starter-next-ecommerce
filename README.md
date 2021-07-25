@@ -1,3 +1,5 @@
+[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/strapi/strapi-starter-next-ecommerce)
+
 # Strapi Starter Next.js E-commerce
 
 Next.js starter for creating a simple e-commerce website with Strapi.
