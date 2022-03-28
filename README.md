@@ -1,3 +1,9 @@
+**:no_entry: Deprecated**
+
+This repository is no longer maintained and only works for Strapi v3. To find the newest Strapi v4 starters, check out the [starters-and-templates monorepo](https://github.com/strapi/starters-and-templates/).
+
+---
+
 # Strapi Starter Next.js E-commerce
 
 Next.js starter for creating a simple e-commerce website with Strapi.
@@ -32,11 +38,7 @@ Payment will not work on localhost, we are redirecting you to this [tutorial](ht
 Use our `create-strapi-starter` CLI to create your project.
 
 ```sh
-# Using Yarn
-yarn create strapi-starter my-site next-ecommerce
-
-# Or using NPM
-npx create-strapi-starter my-site next-ecommerce
+npx create-strapi-starter@3 my-site next-ecommerce
 ```
 
 The CLI will create a monorepo, install dependencies, and run your project automatically.
